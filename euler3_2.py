@@ -3,9 +3,11 @@
 
 z = 600851475143
 i = 2
-while i <= z / 2:
+k = 2
+while i <= z / k:
     while z % i == 0:
         z /= i
+        k = i
     i += 1
 print(z)
 
@@ -14,4 +16,4 @@ print(z)
 # which make up the composite in question will have already played the part in place of their composite product.  As such, we
 # loop through i as many times as it fits until we get z's largest prime component.
 
-# Calculation time (on my PC): 15621 Microseconds
+# Calculation time (on my PC): 0 Microseconds (!)
