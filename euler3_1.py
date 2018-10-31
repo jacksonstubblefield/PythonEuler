@@ -32,4 +32,4 @@ print(z)
 # We split it up into two forms to minimize time taken: whether we need to treat it as potential addition to our prime list or whether
 # to identify whether or not i is already listed and whether it's able to be stripped from z.
 
-# Calculation time (on my PC): 0.0937
+# Calculation time (on my PC): 99844 Microseconds
