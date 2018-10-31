@@ -16,4 +16,4 @@ print(z)
 # which make up the composite in question will have already played the part in place of their composite product.  As such, we
 # loop through i as many times as it fits until we get z's largest prime component.
 
-# Calculation time (on my PC): 0 Microseconds (!)
+# Calculation time (on my PC): Indeterminate (0 Microseconds)
