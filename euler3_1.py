@@ -4,7 +4,8 @@
 primes = [2]
 z = 600851475143
 i = 1
-while i < z / 2:
+k = 2
+while i < z / k:
     if i > primes[len(primes)-1]:
         isPrime = True
         for p in primes:
@@ -12,6 +13,7 @@ while i < z / 2:
                 isPrime = False
         if isPrime == True:
             primes.append(i)
+            k = i
             if z % i == 0:
                 z /= i
                 i = 1
@@ -32,4 +34,4 @@ print(z)
 # We split it up into two forms to minimize time taken: whether we need to treat it as potential addition to our prime list or whether
 # to identify whether or not i is already listed and whether it's able to be stripped from z.
 
-# Calculation time (on my PC): 99844 Microseconds
+# Calculation time (on my PC): 15619 Microseconds
