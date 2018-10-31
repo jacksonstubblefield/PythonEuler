@@ -4,7 +4,7 @@
 x, y, s = [1, 1, 0]
 while x + y < 4000000:
     s += x + y
-    x, y = x + 2 * y, 2* x + 3 * y
+    x, y = x + 2 * y, 2 * x + 3 * y
 print (s)
 
 # This requires one to note that an even is the sum of two odd numbers.  An odd plus an even must be odd.  Insinuating even numbers
