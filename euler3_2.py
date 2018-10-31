@@ -13,4 +13,4 @@ print(z)
 # if a composite figure were to initially play some part in the dissemintation of z into its prime components, the components
 # which make up the composite in question will have already played the part in place of their composite product.
 
-# Execution Time: 15621 Microseconds
+# Calculation time (on my PC): 15621 Microseconds
