@@ -9,8 +9,9 @@ while i <= z / 2:
     i += 1
 print(z)
 
-# As opposed to euler3_1 (look at first) we don't keep track of primes here.  We assume that composites will be ignored as,
+# As opposed to euler3_1 (look at first) we don't keep track of primes here.  We assume that composites will be ignored;
 # if a composite figure were to initially play some part in the dissemintation of z into its prime components, the components
-# which make up the composite in question will have already played the part in place of their composite product.
+# which make up the composite in question will have already played the part in place of their composite product.  As such, we
+# loop through i as many times as it fits until we get z's largest prime component.
 
 # Calculation time (on my PC): 15621 Microseconds
