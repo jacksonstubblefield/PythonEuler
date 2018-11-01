@@ -7,6 +7,7 @@ for i in reversed(range(1, 1000000)):
     if n[0] == n[len(n) - 1]:
         nLen = len(n)
         pal = True
+        t = 1
         for t in range(int(nLen / 2)):
             if n[t] != n[nLen - t - 1]:
                 pal = False
@@ -27,4 +28,4 @@ print(i)
 # able to break up into two three-digit factors.  
 # This ensures we find the largest palindrome that fits the bill in as fewest iterations as possible.
 
-# Calculation time (on my PC): 93727 Microseconds
+# Calculation time (on my PC): 62484 Microseconds
