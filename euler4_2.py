@@ -20,9 +20,7 @@ for i in reversed(range(1, 1000000)):
                         break
     if done is True:
         break
-eTime = datetime.datetime.now()
-fTime = eTime - sTime
-print(i, j, a)
+print(i)
 
 # We achieve a quicker time by first looking for qualifying palindromes.  We know that the highest possible number of digits in the
 # product is 6, so we begin by iterating downwards from 999999 looking for palindromes.  Once found, we ensure that it may be broken up
