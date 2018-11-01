@@ -23,7 +23,8 @@ for i in reversed(range(1, 1000000)):
 print(i)
 
 # We achieve a quicker time by first looking for qualifying palindromes.  We know that the highest possible number of digits in the
-# product is 6, so we begin by iterating downwards from 999999 looking for palindromes.  Once found, we ensure that it may be broken up
-# into two three-digit factors.  This ensures we find the largest palindrome that fits the bill in as fewest iterations as possible.
+# product is 6, so we begin by iterating downwards from 999999 looking for palindromes.  Once found, we see if it's the first we're 
+# able to break up into two three-digit factors.  
+# This ensures we find the largest palindrome that fits the bill in as fewest iterations as possible.
 
 # Calculation time (on my PC): 93727 Microseconds
