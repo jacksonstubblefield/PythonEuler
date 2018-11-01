@@ -12,7 +12,7 @@ for i in reversed(range(1, 1000000)):
                 pal = False
                 break
         if pal is True:
-            for j in reversed(range(1, 1000)):
+            for j in reversed(range(100, 1000)):
                 if i % j == 0:
                     a = str(int(i / j))
                     if len(a) == 3:
