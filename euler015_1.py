@@ -36,7 +36,7 @@ summingSize = len(str(sys.maxsize)) - len(str(9*numberFileLines))
 summingRun = summingSize
 summingRunL = 0
 
-# This is the main function - it essentially teaches us how we deal with numbers in primary school
+# This is the main function - it essentially teaches Python the way we deal with numbers in primary school
 # We do addition in columns here - but we allow Python to use as many numbers as it possibly can
 # For the problem we work with 7 columns at a time - and bigSum is the sum of those 7 columns
 # We then teach it to carry the remainder on to the next 9 columns, and repeat until we have our finalSum
