@@ -1,6 +1,7 @@
 # Find the first 10 digits of the sum of the following 100 50-digit numbers:
 # (see numbers here: https://projecteuler.net/problem=13)
 # Answer: 5537376230
+# Answer (the finalSum): 5537376230390876637302048746832985971773659831892672
 
 
 # Here I wanted to build something robust - the site gives us uniformity but here we build for a sum of any possible numbers.
