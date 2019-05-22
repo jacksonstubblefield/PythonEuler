@@ -39,7 +39,7 @@ summingRunL = 0
 # This is the main function - it essentially teaches Python the way we deal with numbers in primary school
 # We do addition in columns here - but we allow Python to use as many numbers as it possibly can
 # For the problem we work with 7 columns at a time - and bigSum is the sum of those 7 columns
-# We then teach it to carry the remainder on to the next 9 columns, and repeat until we have our finalSum
+# We then teach it to carry the remainder on to the next iterations, and repeat until we have our finalSum
 # We switch strings and integers here as we progress, so that we can make sure we only use the numbers we need
 while (maxLen + summingSize) > summingRun:
     bigSum = int(bigSumCarry)
